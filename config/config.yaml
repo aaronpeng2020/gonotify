@@ -1,0 +1,32 @@
+# 平台接口信息
+platforms:
+  - type: PlatformA
+    url: https://platforma.com/balance
+    method: GET
+    headers:
+      Authorization: "Bearer xxx"
+  - type: PlatformB
+    url: https://platformb.com/balance
+    method: GET
+    headers:
+      Authorization: "Bearer yyy"
+
+# 预警值
+warn: 1000.00
+
+# 邮件配置信息
+email:
+  host: smtp.exmail.qq.com
+  port: 465
+  username: example@example.com
+  password: xxx
+  from: example@example.com
+  to: example1@example.com, example2@example.com
+
+# 短信配置信息
+sms:
+  url: https://api.xxxxxx.com/sms/send
+  app_id: xxxx
+  app_key: xxxxx
+  sign_name: GoNotify
+  template: SMS_123456
