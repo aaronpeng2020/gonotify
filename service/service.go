@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/xxxxxx/GoNotify/platform"
-	"github.com/xxxxxx/GoNotify/util"
+	"github.com/aaronpeng2020/gonotify/platform"
+	"github.com/aaronpeng2020/gonotify/util"
 )
 
 // Service 结构体表示一个服务

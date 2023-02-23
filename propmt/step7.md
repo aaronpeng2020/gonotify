@@ -8,8 +8,8 @@ package service
 
 import (
 	"fmt"
-	"github.com/xxxxxx/GoNotify/platform"
-	"github.com/xxxxxx/GoNotify/util"
+	"github.com/aaronpeng2020/gonotify/platform"
+	"github.com/aaronpeng2020/gonotify/util"
 	"strings"
 )
 

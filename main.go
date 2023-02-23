@@ -2,11 +2,12 @@ package main
 
 import (
 	"fmt"
+
+	"github.com/aaronpeng2020/gonotify/platform"
+	"github.com/aaronpeng2020/gonotify/service"
+	"github.com/aaronpeng2020/gonotify/util"
 	"github.com/robfig/cron/v3"
 	"github.com/spf13/viper"
-	"github.com/xxxxxx/GoNotify/platform"
-	"github.com/xxxxxx/GoNotify/service"
-	"github.com/xxxxxx/GoNotify/util"
 )
 
 func main() {

@@ -9,8 +9,8 @@ package schedule
 import (
 	"fmt"
 	"github.com/robfig/cron/v3"
-	"github.com/xxxxxx/GoNotify/platform"
-	"github.com/xxxxxx/GoNotify/service"
+	"github.com/aaronpeng2020/gonotify/platform"
+	"github.com/aaronpeng2020/gonotify/service"
 )
 
 // Scheduler 结构体表示一个定时任务调度器

@@ -12,9 +12,9 @@ import (
 	"fmt"
 	"github.com/spf13/viper"
 	"github.com/robfig/cron/v3"
-	"github.com/xxxxxx/GoNotify/platform"
-	"github.com/xxxxxx/GoNotify/service"
-	"github.com/xxxxxx/GoNotify/util"
+	"github.com/aaronpeng2020/gonotify/platform"
+	"github.com/aaronpeng2020/gonotify/service"
+	"github.com/aaronpeng2020/gonotify/util"
 )
 
 func main() {
